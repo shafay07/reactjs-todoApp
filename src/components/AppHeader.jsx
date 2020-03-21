@@ -2,7 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 function AppHeader() {
-  return <nav> This is a header! </nav>;
+  return (
+    <section className="headerSection">
+      <header>
+        <h1>React TO-DO</h1>
+      </header>
+    </section>
+  );
 }
 
 export default AppHeader;

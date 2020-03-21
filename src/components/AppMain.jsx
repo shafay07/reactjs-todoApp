@@ -1,11 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./TodoItem";
+import ToDo from "./TodoItem";
+import { Container, Row, Col } from "reactstrap";
 
 function AppMain() {
   return (
-    <main>
-      <h1>Hello world</h1>
-    </main>
+    <section className="mainSection ">
+      <Container>
+        <Row>
+          <Col>
+            <ToDo />
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 }
 

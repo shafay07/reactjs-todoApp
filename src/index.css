@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Open+Sans+Condensed:300|Shadows+Into+Light&display=swap');
+
+/* 
+Fonts used in this app
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Acme', sans-serif; 
+*/
+
+h1 {
+    font-size: 3.0rem;
+}
+
+body {
+    text-align: center;
+    background-color: #f2f4f7;
+}
+
+.headerSection {
+    margin: 50px;
+    color: salmon;
+    font-family: 'Acme', sans-serif;
+}
+
+.mainSection {
+    margin: 100px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.footerSection {
+    font-family: 'Open Sans Condensed', sans-serif;
+    bottom: 0;
+}
