@@ -1,14 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from "react";
 
-function AppHeader() {
-  return (
-    <section className="headerSection">
-      <header>
-        <h1>React TO-DO</h1>
-      </header>
-    </section>
-  );
+class AppHeader extends Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return (
+      <section className="headerSection">
+        <header>
+          <h1>React TO-DO</h1>
+        </header>
+      </section>
+    );
+  }
 }
-
 export default AppHeader;

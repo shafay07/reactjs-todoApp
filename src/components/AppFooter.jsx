@@ -1,14 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from "react";
 
-function AppFooter() {
-  return (
-    <section className="footerSection">
-      <footer>
-        <p>Footer</p>
-      </footer>
-    </section>
-  );
+class AppFooter extends Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+      <section className="footerSection">
+        <footer>
+          <p>Footer</p>
+        </footer>
+      </section>
+    );
+  }
 }
 
 export default AppFooter;
