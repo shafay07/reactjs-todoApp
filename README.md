@@ -1,2 +1,4 @@
-# reactjs
-Repository to brush up React concepts.
+# reactjs-todoApp
+A basic react-todoApp to brush up basic React concepts.
+
+![todo](todo.png)
