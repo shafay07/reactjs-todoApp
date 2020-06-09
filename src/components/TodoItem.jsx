@@ -15,9 +15,7 @@ class TodoItem extends Component {
   constructor() {
     super();
     const itemCounter = (
-      <ListGroupItem className="mt-2 mb-2 itemCounterListItem" color="warning" action>
-        <h3>Total items: {this.itemCount}</h3>
-      </ListGroupItem>
+      <ListGroupItem className="mt-2 mb-2 itemCounterListItem" color="warning" action><h4>All caught up!</h4></ListGroupItem>
     );
     //initialize state
     this.state = {
@@ -48,7 +46,6 @@ class TodoItem extends Component {
               action
             >
               <h3>{value}</h3>
-              {this.itemCount}
             </ListGroupItem>
             {prevState.todoList}
             {prevState.itemCount}
