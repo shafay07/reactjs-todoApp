@@ -17,13 +17,11 @@ body {
 }
 
 .headerSection {
-    margin: 50px;
     color: salmon;
     font-family: 'Acme', sans-serif;
 }
 
 .mainSection {
-    margin: 100px;
     font-family: 'Shadows Into Light', cursive;
 
 }
@@ -31,4 +29,8 @@ body {
 .footerSection {
     font-family: 'Open Sans Condensed', sans-serif;
     bottom: 0;
+}
+
+.todoItem {
+    background-color: #343a40;
 }

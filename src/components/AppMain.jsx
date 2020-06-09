@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./TodoItem";
 import ToDo from "./TodoItem";
 import { Container, Row, Col } from "reactstrap";
+import AppHeader from "./AppHeader";
 
 class AppMain extends Component {
   constructor() {
@@ -9,7 +10,7 @@ class AppMain extends Component {
   }
   render() {
     return (
-      <section className="mainSection ">
+      <section className="mainSection">
         <Container>
           <Row>
             <Col>

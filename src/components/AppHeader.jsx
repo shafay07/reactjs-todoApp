@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Container, Row, Col } from "reactstrap";
 class AppHeader extends Component {
   constructor() {
     super();
@@ -7,9 +7,15 @@ class AppHeader extends Component {
   render() {
     return (
       <section className="headerSection">
-        <header>
-          <h1>React TO-DO</h1>
-        </header>
+        <Container>
+          <Row>
+            <Col>
+              <header>
+                <h1>React To-Do</h1>
+              </header>
+            </Col>
+          </Row>
+        </Container>
       </section>
     );
   }
